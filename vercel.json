@@ -1,6 +1,6 @@
 {
     "version": 2,
     "name": "todolist-project",
-    "builds": [{"src": "app.js", "use": "vercel/node"}],
+    "builds": [{"src": "package.json","use": "vercel-sapper"}],
     "routes": [{"src": "/(.*)", "dest": "/app.js"}]
 }
